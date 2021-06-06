@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color: #FFF8FE;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+header {
+/*  position: fixed; */
+}
+
+footer {
+
+}
+
+h1 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
+h3 {
+
+}
+
+.nav {
+  text-align: center;
+}
+
+.btn {
+  opacity: 0.8;
+  flex: 1 1 auto;
+  margin: 1px;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.4s;
+  background-size: 180% auto;
+  color: black;
+  box-shadow: 0 0 15px #eee;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.btn:hover {
+  background-position: right center;
+  color: white;
+}
+
+.autor {
+  text-align: center;
+}
